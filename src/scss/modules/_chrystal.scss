@@ -1,0 +1,48 @@
+.chrystal {
+   // box-model
+   display: flex;
+   margin: 0 auto;
+   padding-bottom: 2.5em;
+   width: 16em;
+
+   // visual
+   overflow: hidden;
+   font-size: var(--crystal-size);
+}
+
+.chrystal__content {
+   // transformations
+   transform-origin: center center;
+   transform: rotate(-45deg);
+ 
+   // box-model
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   margin-top: -1.5em;
+   width: 10em;
+   height: 10em;
+   
+   // typography
+   color: $light;
+   font-size: 1em;
+ 
+    // visual 
+   background-color: tomato;
+   cursor: pointer;
+   overflow: hidden;
+}
+  
+.chrystal__text {
+   // transformations
+   transform-origin: center center;
+   transform: rotate(45deg);
+   
+   // box-model
+   margin: 0;
+   
+   // typography
+   font-size: 9em;
+   text-align: center;
+}

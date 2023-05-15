@@ -1,6 +1,4 @@
 // 'use strict';
-// import MobileMenu from './modules/MobileMenu';
-// import ToTop from './modules/toTop';
+import ChrystalActions from './modules/chrystalActions';
 
-// const mobileMenu = new MobileMenu();
-// new ToTop();
+const chrystalActions = new ChrystalActions();

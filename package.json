@@ -1,5 +1,5 @@
 {
-  "name": "starter",
+  "name": "ivi-test2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drsg85/Starter.git"
+    "url": "git+https://github.com/drsg85/ivi-test2.git"
   },
-  "author": "RB",
+  "author": "Roman Bagel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/drsg85/Starter/issues"
