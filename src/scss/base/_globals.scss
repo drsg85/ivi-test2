@@ -1,0 +1,88 @@
+html {
+    // typography
+    font-size: 16px;
+}
+
+// Box sizing fix
+body {
+    // box model
+    box-sizing: border-box;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+// html, body {
+//     // box model
+//     width: 100%;
+//     height: 100%;
+//     overflow-x: hidden;
+
+//     @include atFullHD {
+//         // box model
+//         overflow-x: inherit;
+//     }
+// }
+
+// body {
+//     overflow-y: scroll;
+// }
+
+html {
+    position: relative;
+    overflow-x: hidden;
+    height: 100%;
+    -webkit-overflow-scrolling:touch;
+}
+
+*,
+*::before,
+*::after {
+    // box model
+    box-sizing: inherit;
+}
+
+
+body::-webkit-scrollbar {
+    // box model
+    width: 8px;
+
+    & * {
+        background: transparent;
+    }
+
+    &-thumb {
+        // visual
+        background: $golden;
+        border-radius: 10px;
+    }
+    
+    &-track {
+        // visual
+        background: transparent !important;
+    }
+}
+
+.visually-hidden {
+    // positioning
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+
+    // box model
+    height: 1px;
+    width: 1px;
+
+    // typography
+    word-wrap: normal;
+    
+    // visual
+    overflow: hidden;
+}
+
+// hide arrows in input with number type
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
